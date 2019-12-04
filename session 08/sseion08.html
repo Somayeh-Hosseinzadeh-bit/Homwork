@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sseision 08</title>
+    <style>
+        body{
+            margin:0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #content{
+            width: 900px;
+            margin: 0px auto;
+        }
+        .box{
+            position: absolute;
+        }
+        .box1{
+            width: 400px;
+            height: 150px;
+            background-color: red;
+        }
+        .pos1{
+            float: left;
+            position: relative;
+            top:0px;
+            margin-bottom: 122px;
+        }
+        .pos2{
+            float: left;
+            position: relative;
+            top:0px;
+            left:140px;
+        }
+        .des1{
+            text-align: left;
+            width: 400px;
+            position: relative;
+            top:-23px;    
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .des2{
+            text-align: left;
+            background: #555;
+            width: 400px;
+            position: relative;
+            top:-20px;    
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+    <div class="box1"></div>
+    <div class="des1">Tank you ...</div>
+    <div> 
+        <img src="./images/sm_nyc_banner.jpg" alt="" width=400px height="150px">
+        <div class="des2">Tank you ...</div>
+    </div>
+    <div>
+        <img src="./images/sm_nyc_banner.jpg" alt="" class="box" width=400px height="150px">
+            <div>
+            <img src="./images/featured.png" alt="" class="pos1" width=200px height="30px">
+            </div>
+            <div class="des2 clear">Tank you ...</div> 
+    </div>
+    <div>
+        <img src="./images/sm_nyc_banner.jpg" alt="" class="box" width=400px height="150px">
+        <div>
+            <img src="./images/featured.png" alt="" class="pos1" width=200px height="30px">
+            <img src="./images/new.png" alt="" class="pos2" width=50px height="50px">
+        </div>
+        <div class="des2 clear">Tank you ...</div>
+    </div>  
+</body>
+</html>
